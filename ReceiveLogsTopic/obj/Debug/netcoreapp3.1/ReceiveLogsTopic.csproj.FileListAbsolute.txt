@@ -1,0 +1,17 @@
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsTopic/bin/Debug/netcoreapp3.1/ReceiveLogsTopic
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsTopic/bin/Debug/netcoreapp3.1/ReceiveLogsTopic.deps.json
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsTopic/bin/Debug/netcoreapp3.1/ReceiveLogsTopic.runtimeconfig.json
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsTopic/bin/Debug/netcoreapp3.1/ReceiveLogsTopic.runtimeconfig.dev.json
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsTopic/bin/Debug/netcoreapp3.1/ReceiveLogsTopic.dll
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsTopic/bin/Debug/netcoreapp3.1/ReceiveLogsTopic.pdb
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsTopic/bin/Debug/netcoreapp3.1/RabbitMQ.Client.dll
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsTopic/bin/Debug/netcoreapp3.1/System.Threading.Channels.dll
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsTopic/obj/Debug/netcoreapp3.1/ReceiveLogsTopic.csproj.AssemblyReference.cache
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsTopic/obj/Debug/netcoreapp3.1/ReceiveLogsTopic.GeneratedMSBuildEditorConfig.editorconfig
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsTopic/obj/Debug/netcoreapp3.1/ReceiveLogsTopic.AssemblyInfoInputs.cache
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsTopic/obj/Debug/netcoreapp3.1/ReceiveLogsTopic.AssemblyInfo.cs
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsTopic/obj/Debug/netcoreapp3.1/ReceiveLogsTopic.csproj.CoreCompileInputs.cache
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsTopic/obj/Debug/netcoreapp3.1/ReceiveLogsTopic.csproj.CopyComplete
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsTopic/obj/Debug/netcoreapp3.1/ReceiveLogsTopic.dll
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsTopic/obj/Debug/netcoreapp3.1/ReceiveLogsTopic.pdb
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsTopic/obj/Debug/netcoreapp3.1/ReceiveLogsTopic.genruntimeconfig.cache

@@ -1,0 +1,17 @@
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsDirect/bin/Debug/netcoreapp3.1/ReceiveLogsDirect
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsDirect/bin/Debug/netcoreapp3.1/ReceiveLogsDirect.deps.json
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsDirect/bin/Debug/netcoreapp3.1/ReceiveLogsDirect.runtimeconfig.json
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsDirect/bin/Debug/netcoreapp3.1/ReceiveLogsDirect.runtimeconfig.dev.json
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsDirect/bin/Debug/netcoreapp3.1/ReceiveLogsDirect.dll
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsDirect/bin/Debug/netcoreapp3.1/ReceiveLogsDirect.pdb
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsDirect/bin/Debug/netcoreapp3.1/RabbitMQ.Client.dll
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsDirect/bin/Debug/netcoreapp3.1/System.Threading.Channels.dll
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsDirect/obj/Debug/netcoreapp3.1/ReceiveLogsDirect.csproj.AssemblyReference.cache
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsDirect/obj/Debug/netcoreapp3.1/ReceiveLogsDirect.GeneratedMSBuildEditorConfig.editorconfig
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsDirect/obj/Debug/netcoreapp3.1/ReceiveLogsDirect.AssemblyInfoInputs.cache
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsDirect/obj/Debug/netcoreapp3.1/ReceiveLogsDirect.AssemblyInfo.cs
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsDirect/obj/Debug/netcoreapp3.1/ReceiveLogsDirect.csproj.CoreCompileInputs.cache
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsDirect/obj/Debug/netcoreapp3.1/ReceiveLogsDirect.csproj.CopyComplete
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsDirect/obj/Debug/netcoreapp3.1/ReceiveLogsDirect.dll
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsDirect/obj/Debug/netcoreapp3.1/ReceiveLogsDirect.pdb
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsDirect/obj/Debug/netcoreapp3.1/ReceiveLogsDirect.genruntimeconfig.cache

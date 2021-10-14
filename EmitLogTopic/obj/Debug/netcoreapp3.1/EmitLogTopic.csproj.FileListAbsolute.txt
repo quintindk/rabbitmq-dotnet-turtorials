@@ -1,0 +1,17 @@
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/EmitLogTopic/bin/Debug/netcoreapp3.1/EmitLogTopic
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/EmitLogTopic/bin/Debug/netcoreapp3.1/EmitLogTopic.deps.json
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/EmitLogTopic/bin/Debug/netcoreapp3.1/EmitLogTopic.runtimeconfig.json
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/EmitLogTopic/bin/Debug/netcoreapp3.1/EmitLogTopic.runtimeconfig.dev.json
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/EmitLogTopic/bin/Debug/netcoreapp3.1/EmitLogTopic.dll
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/EmitLogTopic/bin/Debug/netcoreapp3.1/EmitLogTopic.pdb
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/EmitLogTopic/bin/Debug/netcoreapp3.1/RabbitMQ.Client.dll
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/EmitLogTopic/bin/Debug/netcoreapp3.1/System.Threading.Channels.dll
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/EmitLogTopic/obj/Debug/netcoreapp3.1/EmitLogTopic.csproj.AssemblyReference.cache
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/EmitLogTopic/obj/Debug/netcoreapp3.1/EmitLogTopic.GeneratedMSBuildEditorConfig.editorconfig
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/EmitLogTopic/obj/Debug/netcoreapp3.1/EmitLogTopic.AssemblyInfoInputs.cache
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/EmitLogTopic/obj/Debug/netcoreapp3.1/EmitLogTopic.AssemblyInfo.cs
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/EmitLogTopic/obj/Debug/netcoreapp3.1/EmitLogTopic.csproj.CoreCompileInputs.cache
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/EmitLogTopic/obj/Debug/netcoreapp3.1/EmitLogTopic.csproj.CopyComplete
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/EmitLogTopic/obj/Debug/netcoreapp3.1/EmitLogTopic.dll
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/EmitLogTopic/obj/Debug/netcoreapp3.1/EmitLogTopic.pdb
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/EmitLogTopic/obj/Debug/netcoreapp3.1/EmitLogTopic.genruntimeconfig.cache

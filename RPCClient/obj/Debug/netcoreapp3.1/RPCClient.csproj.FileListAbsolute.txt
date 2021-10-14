@@ -1,0 +1,17 @@
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/RPCClient/bin/Debug/netcoreapp3.1/RPCClient
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/RPCClient/bin/Debug/netcoreapp3.1/RPCClient.deps.json
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/RPCClient/bin/Debug/netcoreapp3.1/RPCClient.runtimeconfig.json
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/RPCClient/bin/Debug/netcoreapp3.1/RPCClient.runtimeconfig.dev.json
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/RPCClient/bin/Debug/netcoreapp3.1/RPCClient.dll
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/RPCClient/bin/Debug/netcoreapp3.1/RPCClient.pdb
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/RPCClient/bin/Debug/netcoreapp3.1/RabbitMQ.Client.dll
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/RPCClient/bin/Debug/netcoreapp3.1/System.Threading.Channels.dll
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/RPCClient/obj/Debug/netcoreapp3.1/RPCClient.csproj.AssemblyReference.cache
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/RPCClient/obj/Debug/netcoreapp3.1/RPCClient.GeneratedMSBuildEditorConfig.editorconfig
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/RPCClient/obj/Debug/netcoreapp3.1/RPCClient.AssemblyInfoInputs.cache
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/RPCClient/obj/Debug/netcoreapp3.1/RPCClient.AssemblyInfo.cs
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/RPCClient/obj/Debug/netcoreapp3.1/RPCClient.csproj.CoreCompileInputs.cache
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/RPCClient/obj/Debug/netcoreapp3.1/RPCClient.csproj.CopyComplete
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/RPCClient/obj/Debug/netcoreapp3.1/RPCClient.dll
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/RPCClient/obj/Debug/netcoreapp3.1/RPCClient.pdb
+/home/quintindk/projects/rabbitmq-tutorials/dotnet/RPCClient/obj/Debug/netcoreapp3.1/RPCClient.genruntimeconfig.cache

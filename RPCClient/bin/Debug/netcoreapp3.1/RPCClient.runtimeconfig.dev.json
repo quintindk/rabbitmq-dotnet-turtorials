@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/quintindk/.dotnet/store/|arch|/|tfm|",
+      "/home/quintindk/.nuget/packages"
+    ]
+  }
+}
