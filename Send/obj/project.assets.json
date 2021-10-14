@@ -114,11 +114,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/quintindk/projects/rabbitmq-tutorials/dotnet/Send/Send.csproj",
+      "projectUniqueName": "/home/quintindk/projects/rabbitmq-dotnet/Send/Send.csproj",
       "projectName": "Send",
-      "projectPath": "/home/quintindk/projects/rabbitmq-tutorials/dotnet/Send/Send.csproj",
+      "projectPath": "/home/quintindk/projects/rabbitmq-dotnet/Send/Send.csproj",
       "packagesPath": "/home/quintindk/.nuget/packages/",
-      "outputPath": "/home/quintindk/projects/rabbitmq-tutorials/dotnet/Send/obj/",
+      "outputPath": "/home/quintindk/projects/rabbitmq-dotnet/Send/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/quintindk/.nuget/NuGet/NuGet.Config"

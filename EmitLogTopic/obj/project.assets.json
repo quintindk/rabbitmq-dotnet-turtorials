@@ -114,11 +114,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/quintindk/projects/rabbitmq-tutorials/dotnet/EmitLogTopic/EmitLogTopic.csproj",
+      "projectUniqueName": "/home/quintindk/projects/rabbitmq-dotnet/EmitLogTopic/EmitLogTopic.csproj",
       "projectName": "EmitLogTopic",
-      "projectPath": "/home/quintindk/projects/rabbitmq-tutorials/dotnet/EmitLogTopic/EmitLogTopic.csproj",
+      "projectPath": "/home/quintindk/projects/rabbitmq-dotnet/EmitLogTopic/EmitLogTopic.csproj",
       "packagesPath": "/home/quintindk/.nuget/packages/",
-      "outputPath": "/home/quintindk/projects/rabbitmq-tutorials/dotnet/EmitLogTopic/obj/",
+      "outputPath": "/home/quintindk/projects/rabbitmq-dotnet/EmitLogTopic/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/quintindk/.nuget/NuGet/NuGet.Config"

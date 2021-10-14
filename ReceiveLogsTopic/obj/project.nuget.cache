@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QgCvMqtsfKrQViXMckvUgEtBiRbaApp3Zvj2g54FyjjTXdwGu6qSefeUXp6bi64FpCGM+S+0XpZLPeVx4sEWIQ==",
+  "dgSpecHash": "dPrVmkAgJ/Rhr06jUECGFMavWbyYLnMTt6qThaTYtAO0FQjIWN5elm+B216HZm8DKqFcIgsJXwmoFe45BJq38g==",
   "success": true,
-  "projectFilePath": "/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsTopic/ReceiveLogsTopic.csproj",
+  "projectFilePath": "/home/quintindk/projects/rabbitmq-dotnet/ReceiveLogsTopic/ReceiveLogsTopic.csproj",
   "expectedPackageFiles": [
     "/home/quintindk/.nuget/packages/rabbitmq.client/6.2.2/rabbitmq.client.6.2.2.nupkg.sha512",
     "/home/quintindk/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",

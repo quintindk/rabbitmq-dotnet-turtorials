@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogs/ReceiveLogs.csproj": {}
+    "/home/quintindk/projects/rabbitmq-dotnet/ReceiveLogs/ReceiveLogs.csproj": {}
   },
   "projects": {
-    "/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogs/ReceiveLogs.csproj": {
+    "/home/quintindk/projects/rabbitmq-dotnet/ReceiveLogs/ReceiveLogs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogs/ReceiveLogs.csproj",
+        "projectUniqueName": "/home/quintindk/projects/rabbitmq-dotnet/ReceiveLogs/ReceiveLogs.csproj",
         "projectName": "ReceiveLogs",
-        "projectPath": "/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogs/ReceiveLogs.csproj",
+        "projectPath": "/home/quintindk/projects/rabbitmq-dotnet/ReceiveLogs/ReceiveLogs.csproj",
         "packagesPath": "/home/quintindk/.nuget/packages/",
-        "outputPath": "/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogs/obj/",
+        "outputPath": "/home/quintindk/projects/rabbitmq-dotnet/ReceiveLogs/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/quintindk/.nuget/NuGet/NuGet.Config"

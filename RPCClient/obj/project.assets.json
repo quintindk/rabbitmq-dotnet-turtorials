@@ -114,11 +114,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/quintindk/projects/rabbitmq-tutorials/dotnet/RPCClient/RPCClient.csproj",
+      "projectUniqueName": "/home/quintindk/projects/rabbitmq-dotnet/RPCClient/RPCClient.csproj",
       "projectName": "RPCClient",
-      "projectPath": "/home/quintindk/projects/rabbitmq-tutorials/dotnet/RPCClient/RPCClient.csproj",
+      "projectPath": "/home/quintindk/projects/rabbitmq-dotnet/RPCClient/RPCClient.csproj",
       "packagesPath": "/home/quintindk/.nuget/packages/",
-      "outputPath": "/home/quintindk/projects/rabbitmq-tutorials/dotnet/RPCClient/obj/",
+      "outputPath": "/home/quintindk/projects/rabbitmq-dotnet/RPCClient/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/quintindk/.nuget/NuGet/NuGet.Config"

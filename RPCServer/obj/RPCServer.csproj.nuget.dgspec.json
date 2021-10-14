@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/quintindk/projects/rabbitmq-tutorials/dotnet/RPCServer/RPCServer.csproj": {}
+    "/home/quintindk/projects/rabbitmq-dotnet/RPCServer/RPCServer.csproj": {}
   },
   "projects": {
-    "/home/quintindk/projects/rabbitmq-tutorials/dotnet/RPCServer/RPCServer.csproj": {
+    "/home/quintindk/projects/rabbitmq-dotnet/RPCServer/RPCServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/quintindk/projects/rabbitmq-tutorials/dotnet/RPCServer/RPCServer.csproj",
+        "projectUniqueName": "/home/quintindk/projects/rabbitmq-dotnet/RPCServer/RPCServer.csproj",
         "projectName": "RPCServer",
-        "projectPath": "/home/quintindk/projects/rabbitmq-tutorials/dotnet/RPCServer/RPCServer.csproj",
+        "projectPath": "/home/quintindk/projects/rabbitmq-dotnet/RPCServer/RPCServer.csproj",
         "packagesPath": "/home/quintindk/.nuget/packages/",
-        "outputPath": "/home/quintindk/projects/rabbitmq-tutorials/dotnet/RPCServer/obj/",
+        "outputPath": "/home/quintindk/projects/rabbitmq-dotnet/RPCServer/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/quintindk/.nuget/NuGet/NuGet.Config"

@@ -114,11 +114,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsDirect/ReceiveLogsDirect.csproj",
+      "projectUniqueName": "/home/quintindk/projects/rabbitmq-dotnet/ReceiveLogsDirect/ReceiveLogsDirect.csproj",
       "projectName": "ReceiveLogsDirect",
-      "projectPath": "/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsDirect/ReceiveLogsDirect.csproj",
+      "projectPath": "/home/quintindk/projects/rabbitmq-dotnet/ReceiveLogsDirect/ReceiveLogsDirect.csproj",
       "packagesPath": "/home/quintindk/.nuget/packages/",
-      "outputPath": "/home/quintindk/projects/rabbitmq-tutorials/dotnet/ReceiveLogsDirect/obj/",
+      "outputPath": "/home/quintindk/projects/rabbitmq-dotnet/ReceiveLogsDirect/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/quintindk/.nuget/NuGet/NuGet.Config"

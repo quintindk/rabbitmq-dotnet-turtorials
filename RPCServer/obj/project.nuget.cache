@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XqeWyEXW9jKV3hXsvCycKXoYQyYdqWNDQdxjO/nx/4eUJ3IdsqdzbuB9tKN5n94H9DwI7RBuyA1PvsWX45IhSg==",
+  "dgSpecHash": "AizLu/bdKq1lv0OUrpaikOdbge/OK0v67oaT2OIAD9E4q62zF428anzb2YEbVkmgs2avYTqONWbKx7fIsab9+g==",
   "success": true,
-  "projectFilePath": "/home/quintindk/projects/rabbitmq-tutorials/dotnet/RPCServer/RPCServer.csproj",
+  "projectFilePath": "/home/quintindk/projects/rabbitmq-dotnet/RPCServer/RPCServer.csproj",
   "expectedPackageFiles": [
     "/home/quintindk/.nuget/packages/rabbitmq.client/6.2.2/rabbitmq.client.6.2.2.nupkg.sha512",
     "/home/quintindk/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",

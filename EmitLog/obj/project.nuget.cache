@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mpITUMXfuZSLpZVZazBwfJfhwGTWwwMgg/Y/vpT3jzkiwKIeDUji/wKn0xR2/oenZYL/gFaxFjjr+0ZCn1fzBQ==",
+  "dgSpecHash": "wdDR/DUZZ7BKuS/OZFPKEGXurK4MqKcMnGt0j8Opv2pbUEy5lLwvdNcQuG4Yb2zUUCtXioHZqPmHnmsFATyyPg==",
   "success": true,
-  "projectFilePath": "/home/quintindk/projects/rabbitmq-tutorials/dotnet/EmitLog/EmitLog.csproj",
+  "projectFilePath": "/home/quintindk/projects/rabbitmq-dotnet/EmitLog/EmitLog.csproj",
   "expectedPackageFiles": [
     "/home/quintindk/.nuget/packages/rabbitmq.client/6.2.2/rabbitmq.client.6.2.2.nupkg.sha512",
     "/home/quintindk/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",

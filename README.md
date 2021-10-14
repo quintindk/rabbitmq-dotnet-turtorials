@@ -30,34 +30,110 @@ on windows cd into each project and run `dotnet restore` manually.
 
 #### [Tutorial one: "Hello World!"](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
 
-    dotnet run -p Receive/Receive.csproj
-    dotnet run -p Send/Send.csproj
+```bash    
+  dotnet run -p Receive/Receive.csproj
+  dotnet run -p Send/Send.csproj
+```
 
 #### [Tutorial two: Work Queues](https://www.rabbitmq.com/tutorials/tutorial-two-dotnet.html)
 
-    dotnet run -p Worker/Worker.csproj
-    dotnet run -p NewTask/NewTask.csproj
+```bash
+  dotnet run -p Worker/Worker.csproj
+  dotnet run -p NewTask/NewTask.csproj
+```
 
 #### [Tutorial three: Publish/Subscribe](https://www.rabbitmq.com/tutorials/tutorial-three-dotnet.html)
 
-    dotnet run -p ReceiveLogs/ReceiveLogs.csproj
-    dotnet run -p EmitLog/EmitLog.csproj
+```bash
+  dotnet run -p ReceiveLogs/ReceiveLogs.csproj
+  dotnet run -p EmitLog/EmitLog.csproj
+```
 
 #### [Tutorial four: Routing](https://www.rabbitmq.com/tutorials/tutorial-four-dotnet.html)
 
-    dotnet run -p ReceiveLogsDirect/ReceiveLogsDirect.csproj info
-    dotnet run -p EmitLogDirect/EmitLogDirect.csproj
+```bash
+  dotnet run -p ReceiveLogsDirect/ReceiveLogsDirect.csproj info
+  dotnet run -p EmitLogDirect/EmitLogDirect.csproj
+```
 
 #### [Tutorial five: Topics](https://www.rabbitmq.com/tutorials/tutorial-five-dotnet.html)
 
-    dotnet run -p ReceiveLogsTopic/ReceiveLogsTopic.csproj anonymous.info
-    dotnet run -p EmitLogTopic/EmitLogTopic.csproj
+```bash
+  dotnet run -p ReceiveLogsTopic/ReceiveLogsTopic.csproj anonymous.info
+  dotnet run -p EmitLogTopic/EmitLogTopic.csproj
+```
 
 #### [Tutorial six: RPC](https://www.rabbitmq.com/tutorials/tutorial-six-dotnet.html)
 
-    dotnet run -p RPCServer/RPCServer.csproj
-    dotnet run -p RPCClient/RPCClient.csproj
+```bash
+  dotnet run -p RPCServer/RPCServer.csproj
+  dotnet run -p RPCClient/RPCClient.csproj
+```
 
 #### [Tutorial seven: Publisher Confirms](https://www.rabbitmq.com/tutorials/tutorial-seven-dotnet.html)
 
-    dotnet run -p PublisherConfirms/PublisherConfirms.csproj
+```bash
+  dotnet run -p PublisherConfirms/PublisherConfirms.csproj
+```
+
+## Docker
+
+First you gonna build the Docker image.
+
+```bash
+docker build -t rabbitmq-dotnet:0.0.1 .
+```
+
+Then start a local server
+
+```bash
+docker network create rabbitmq-net
+docker run --network rabbitmq-net -d -p 5627:5672 -p 15672:15672 --hostname rabbitmq --name rabbitmq-server rabbitmq:3-management
+```
+#### [Tutorial one: "Hello World!"](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
+
+```bash
+  docker run --network rabbitmq-net -e RABBITMQ_HOST=rabbitmq -d rabbitmq-dotnet:0.0.1 dotnet run -p Receive/Receive.csproj
+  docker run --network rabbitmq-net -e RABBITMQ_HOST=rabbitmq -d rabbitmq-dotnet:0.0.1 dotnet run -p Send/Send.csproj
+```
+
+#### [Tutorial two: Work Queues](https://www.rabbitmq.com/tutorials/tutorial-two-dotnet.html)
+
+```bash
+  docker run --network rabbitmq-net -e RABBITMQ_HOST=rabbitmq rabbitmq-dotnet:0.0.1 dotnet run -p Worker/Worker.csproj
+  docker run --network rabbitmq-net -e RABBITMQ_HOST=rabbitmq -d rabbitmq-dotnet:0.0.1 dotnet run -p NewTask/NewTask.csproj
+```
+
+#### [Tutorial three: Publish/Subscribe](https://www.rabbitmq.com/tutorials/tutorial-three-dotnet.html)
+
+```bash
+  docker run --network rabbitmq-net -e RABBITMQ_HOST=rabbitmq -d rabbitmq-dotnet:0.0.1 dotnet run -p ReceiveLogs/ReceiveLogs.csproj
+  docker run --network rabbitmq-net -e RABBITMQ_HOST=rabbitmq -d rabbitmq-dotnet:0.0.1 dotnet run -p EmitLog/EmitLog.csproj
+```
+
+#### [Tutorial four: Routing](https://www.rabbitmq.com/tutorials/tutorial-four-dotnet.html)
+
+```bash
+  docker run --network rabbitmq-net -e RABBITMQ_HOST=rabbitmq -d rabbitmq-dotnet:0.0.1 dotnet run -p ReceiveLogsDirect/ReceiveLogsDirect.csproj info
+  docker run --network rabbitmq-net -e RABBITMQ_HOST=rabbitmq -d rabbitmq-dotnet:0.0.1 dotnet run -p EmitLogDirect/EmitLogDirect.csproj
+```
+
+#### [Tutorial five: Topics](https://www.rabbitmq.com/tutorials/tutorial-five-dotnet.html)
+
+```bash
+  docker run --network rabbitmq-net -e RABBITMQ_HOST=rabbitmq -d rabbitmq-dotnet:0.0.1 dotnet run -p ReceiveLogsTopic/ReceiveLogsTopic.csproj anonymous.info
+  docker run --network rabbitmq-net -e RABBITMQ_HOST=rabbitmq -d rabbitmq-dotnet:0.0.1 dotnet run -p EmitLogTopic/EmitLogTopic.csproj
+```
+
+#### [Tutorial six: RPC](https://www.rabbitmq.com/tutorials/tutorial-six-dotnet.html)
+
+```
+  docker run --network rabbitmq-net -e RABBITMQ_HOST=rabbitmq -d rabbitmq-dotnet:0.0.1 dotnet run -p RPCServer/RPCServer.csproj
+  docker run --network rabbitmq-net -e RABBITMQ_HOST=rabbitmq -d rabbitmq-dotnet:0.0.1 dotnet run -p RPCClient/RPCClient.csproj
+```
+
+#### [Tutorial seven: Publisher Confirms](https://www.rabbitmq.com/tutorials/tutorial-seven-dotnet.html)
+
+```bash
+  docker run --network rabbitmq-net -e RABBITMQ_HOST=rabbitmq -d rabbitmq-dotnet:0.0.1 dotnet run -p PublisherConfirms/PublisherConfirms.csproj
+```

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "elN+UBki01J689bfFkuOVOgQaA6kZ/DMsmj+MlqkpvvqnTp+OFTo1S2Afpxs/nTXzQsr1Fj/T6V4zxXDG7BCxw==",
+  "dgSpecHash": "5TwMRRl/QXvEsjntTGhEvbagCgEVALI2b+O3OefuqYzXU4CX4NWCIe+/sMJ0AhggrMPLYm60U4ceQ8FlDFGiWw==",
   "success": true,
-  "projectFilePath": "/home/quintindk/projects/rabbitmq-tutorials/dotnet/Worker/Worker.csproj",
+  "projectFilePath": "/home/quintindk/projects/rabbitmq-dotnet/Worker/Worker.csproj",
   "expectedPackageFiles": [
     "/home/quintindk/.nuget/packages/rabbitmq.client/6.2.2/rabbitmq.client.6.2.2.nupkg.sha512",
     "/home/quintindk/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",

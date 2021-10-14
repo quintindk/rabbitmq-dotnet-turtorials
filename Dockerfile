@@ -4,4 +4,3 @@ WORKDIR /rabbit/
 
 COPY . /rabbit/
 
-ENTRYPOINT [ "/bin/bash" ]
