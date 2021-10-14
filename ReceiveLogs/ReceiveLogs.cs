@@ -2,34 +2,51 @@ using System;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text;
+using System.Threading;
 
 class ReceiveLogs
 {
-    public static void Main()
+  public static void Main()
+  {
+    var hostname = Environment.GetEnvironmentVariable("RABBITMQ_HOST") ?? "localhost";
+    var username = Environment.GetEnvironmentVariable("RABBITMQ_USERNAME") ?? "guest";
+    var password = Environment.GetEnvironmentVariable("RABBITMQ_PASSWORD") ?? "guest";
+    var vhost = Environment.GetEnvironmentVariable("RABBITMQ_VHOST") ?? "/";
+
+    Console.WriteLine($"RABBITMQ_HOST:{hostname}");
+    Console.WriteLine($"RABBITMQ_USERNAME:{username}");
+    Console.WriteLine($"RABBITMQ_PASSWORD:***");
+    Console.WriteLine($"RABBITMQ_VHOST:{vhost}");
+
+    var factory = new ConnectionFactory()
     {
-        var factory = new ConnectionFactory() { HostName = "localhost" };
-        using(var connection = factory.CreateConnection())
-        using(var channel = connection.CreateModel())
-        {
-            channel.ExchangeDeclare(exchange: "logs", type: ExchangeType.Fanout);
+      HostName = hostname,
+      UserName = username,
+      Password = password,
+      VirtualHost = vhost
+    };
 
-            // declare a server-named queue
-            var queueName = channel.QueueDeclare(queue: "").QueueName;
-            channel.QueueBind(queue: queueName, exchange: "logs", routingKey: "");
+    using (var connection = factory.CreateConnection())
+    using (var channel = connection.CreateModel())
+    {
+      channel.ExchangeDeclare(exchange: "logs", type: ExchangeType.Fanout);
 
-            Console.WriteLine(" [*] Waiting for logs.");
+      // declare a server-named queue
+      var queueName = channel.QueueDeclare(queue: "").QueueName;
+      channel.QueueBind(queue: queueName, exchange: "logs", routingKey: "");
 
-            var consumer = new EventingBasicConsumer(channel);
-            consumer.Received += (model, ea) =>
-            {
-                byte[] body = ea.Body.ToArray();
-                var message = Encoding.UTF8.GetString(body);
-                Console.WriteLine(" [x] {0}", message);
-            };
-            channel.BasicConsume(queue: queueName, autoAck: true, consumer: consumer);
+      Console.WriteLine(" [*] Waiting for logs.");
 
-            Console.WriteLine(" Press [enter] to exit.");
-            Console.ReadLine();
-        }
+      var consumer = new EventingBasicConsumer(channel);
+      consumer.Received += (model, ea) =>
+      {
+        byte[] body = ea.Body.ToArray();
+        var message = Encoding.UTF8.GetString(body);
+        Console.WriteLine(" [x] {0}", message);
+      };
+      channel.BasicConsume(queue: queueName, autoAck: true, consumer: consumer);
+
+      Thread.Sleep(Timeout.Infinite);
     }
+  }
 }
